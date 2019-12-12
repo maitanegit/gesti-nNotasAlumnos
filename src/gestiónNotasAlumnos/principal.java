@@ -17,6 +17,13 @@ public class principal implements Constantes{
 			Uttilidades.mostrarAlumno(A4);
 			Uttilidades.mostrarAlumno(A5);
 		
+		
+		System.out.println(A1.getNombre() + " - " +  A1.getNota() );
+		System.out.println(A2.getNombre() + " - " +  A2.getNota() );
+		System.out.println(A3.getNombre() + " - " +  A3.getNota() );
+		System.out.println(A4.getNombre() + " - " +  A4.getNota() );
+		System.out.println(A5.getNombre() + " - " +  A5.getNota() );
+		
 	}
 
 }
