@@ -21,6 +21,10 @@ public class alumno implements Constantes{
 	public void setNota(int nota) {
 		Nota = nota;
 	}
+	@Override
+	public String toString() {
+		return "alumno [Nombre=" + Nombre + ", Nota=" + Nota + "]";
+	}
 	
 	
 
